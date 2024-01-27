@@ -89,7 +89,7 @@ export function FileItem({ name, size, state }: FileItemProps) {
         <CheckCircle2 className="h-5 w-5 fill-violet-600 text-white" />
       ) : (
         <Button type="button" variant="ghost" className={deleteButton()}>
-          <Trash2 className="h-5 w-5 text-zinc-500" />
+          <Trash2 className="h-5 w-5" />
         </Button>
       )}
     </div>
